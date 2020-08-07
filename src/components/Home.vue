@@ -5,6 +5,7 @@
     <form v-on:submit="validateUser">
       <input type="text" v-model="loginData.emailAddress" placeholder="Enter Email address">
       <br>
+      <br>
       <input type="submit" value="Login">
       <br>
       <br>
@@ -23,8 +24,10 @@
       <br>
       <input type="text" v-model="registerData.lastName" placeholder="Enter Last name">
       <br>
+      <br>
       <input type="submit" value="Register">
     </form>
+    <br>
     <br>
     <span v-if="registerReponse">
       <b>{{ registerReponse.data }}</b>
