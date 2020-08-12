@@ -2,6 +2,6 @@ import axios from 'axios';
 
 export default() => {
     return axios.create({
-        baseURL: 'http://localhost:8081'
+        baseURL: 'http://test-dev-client-git-esbpcs.apps.ca-central-1.starter.openshift-online.com'
     });
 };

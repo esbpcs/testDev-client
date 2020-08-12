@@ -1,7 +1,7 @@
 <template>
   <div class="posts">
-    <h1>Digital Asset Management</h1>
-    <h3>Login below:</h3>
+    <h1>DAM</h1>
+    <h3>Login:</h3>
     <form v-on:submit="validateUser">
       <input type="text" v-model="loginData.emailAddress" placeholder="Enter Email address">
       <br>
